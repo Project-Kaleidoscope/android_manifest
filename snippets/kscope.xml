@@ -39,6 +39,15 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
 
   <!-- hardware -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="kscope" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+  </project>
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="kscope" revision="sunflower-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="kscope" revision="sunflower-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom" remote="kscope" revision="sunflower-caf-sm8150" />
