@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="kscope"
+           fetch="https://github.com/Project-Kaleidoscope"
+           review="https://review.kaleidoscope.ink/"
+           revision="refs/heads/sunflower" />
+
+  <project path="bionic" name="android_bionic" groups="pdk" remote="kscope" />
+  <project path="manifest" name="android_manifest" remote="kscope" />
+
+  <!-- build -->
+  <project path="build/make" name="android_build" groups="pdk" remote="kscope" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="kscope" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- bootable -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="kscope" />
+
+  <!-- prebuilts -->
+  <project path="prebuilts/tools-kscope" name="android_prebuilts_tools-kscope" remote="kscope" />
+
+  <!-- system -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="kscope" />
+
+  <!-- tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="kscope" />
+
+  <!-- vendor -->
+  <project path="vendor/kscope" name="android_vendor_kscope" remote="kscope" />
+
+</manifest>
