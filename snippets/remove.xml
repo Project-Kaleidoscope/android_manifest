@@ -83,4 +83,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/libhardware" />
 
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+
 </manifest>
