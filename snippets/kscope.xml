@@ -38,6 +38,10 @@
   <project path="external/mksh" name="android_external_mksh" remote="kscope" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
 
+  <!-- hardware -->
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="kscope" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="kscope" revision="sunflower-caf"/>
+
   <!-- prebuilts -->
   <project path="prebuilts/tools-kscope" name="android_prebuilts_tools-kscope" remote="kscope" />
 
