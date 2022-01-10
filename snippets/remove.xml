@@ -79,4 +79,8 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/libhardware" />
+
 </manifest>

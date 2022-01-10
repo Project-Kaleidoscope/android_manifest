@@ -41,6 +41,8 @@
   <!-- hardware -->
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="kscope" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="kscope" revision="sunflower-caf"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="kscope" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="kscope" />
 
   <!-- prebuilts -->
   <project path="prebuilts/tools-kscope" name="android_prebuilts_tools-kscope" remote="kscope" />
