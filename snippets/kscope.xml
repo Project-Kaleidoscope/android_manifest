@@ -9,6 +9,10 @@
            review="https://review.kaleidoscope.ink/"
            revision="refs/heads/sunflower" />
 
+  <remote  name="kscope-gitlab"
+           fetch="https://gitlab.com/Project-Kaleidoscope"
+           revision="refs/heads/sunflower" />
+
   <project path="bionic" name="android_bionic" groups="pdk" remote="kscope" />
   <project path="manifest" name="android_manifest" remote="kscope" />
 
