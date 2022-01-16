@@ -42,6 +42,9 @@
   <project path="external/mksh" name="android_external_mksh" remote="kscope" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
 
+  <!-- frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="kscope" />
+
   <!-- hardware -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="kscope" >
     <!-- add guard for AOSP hardware/qcom dir -->
