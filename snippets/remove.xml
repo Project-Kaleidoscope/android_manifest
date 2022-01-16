@@ -86,7 +86,13 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/libhardware" />
 
+  <!-- packages -->
+  <remove-project name="platform/packages/modules/adb" />
+
   <!-- system -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
 
 </manifest>

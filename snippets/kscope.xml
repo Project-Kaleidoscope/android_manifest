@@ -67,6 +67,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="kscope" />
 
   <!-- packages -->
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="kscope" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="kscope" />
 
   <!-- prebuilts -->
@@ -74,7 +75,10 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="kscope" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="kscope" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="kscope" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="kscope" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="kscope" />
 
   <!-- tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="kscope" />
