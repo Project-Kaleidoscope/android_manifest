@@ -87,6 +87,7 @@
   <remove-project name="platform/hardware/libhardware" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/adb" />
 
   <!-- system -->
