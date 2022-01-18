@@ -99,5 +99,6 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="kscope" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="kscope" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="kscope" />
+  <project path="vendor/support" name="android_vendor_support" remote="kscope" />
 
 </manifest>
