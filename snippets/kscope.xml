@@ -34,6 +34,11 @@
   <!-- bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="kscope" />
 
+  <!-- device -->
+  <project path="device/kscope/sepolicy" name="android_device_kscope_sepolicy" remote="kscope" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="kscope" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="kscope" />
+
   <!-- external -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="kscope" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="kscope" />
