@@ -40,6 +40,10 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="kscope" />
 
   <!-- external -->
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="kscope" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="kscope" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="kscope" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="kscope" />
   <project path="external/colorkt" name="android_external_colorkt" remote="kscope" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="kscope" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="kscope" />
