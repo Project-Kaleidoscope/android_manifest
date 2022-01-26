@@ -91,6 +91,7 @@
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
