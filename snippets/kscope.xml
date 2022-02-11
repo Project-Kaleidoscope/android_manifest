@@ -57,6 +57,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
   <project path="frameworks/base" name="android_frameworks_base" remote="kscope" />
   <project path="frameworks/native" name="android_frameworks_native" remote="kscope" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kscope" />
 
   <!-- hardware -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="kscope" >
