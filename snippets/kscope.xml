@@ -108,6 +108,7 @@
 
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="kscope" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="kscope-gitlab" clone-depth="1" />
   <project path="vendor/kscope" name="android_vendor_kscope" remote="kscope" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="kscope" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="kscope" />
