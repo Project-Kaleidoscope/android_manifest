@@ -80,6 +80,7 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="kscope" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="kscope" revision="sunflower-caf"/>
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="kscope" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="kscope" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="kscope" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="kscope" />
 
@@ -92,6 +93,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="kscope" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="kscope" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="kscope" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="kscope" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="kscope" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="kscope" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="kscope" />
@@ -104,9 +106,11 @@
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="kscope" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="kscope" />
+  <project path="system/security" name="android_system_security" remote="kscope" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="kscope" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="kscope" />
   <project path="system/update_engine" name="android_system_update_engine" remote="kscope" />
+  <project path="system/vold" name="android_system_vold" remote="kscope" />
 
   <!-- tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="kscope" />
