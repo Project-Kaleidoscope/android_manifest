@@ -109,6 +109,7 @@
   <remove-project name="platform/packages/services/Telephony" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
