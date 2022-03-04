@@ -74,6 +74,7 @@
   <remove-project name="device/ti/beagle-x15" />
 
   <!-- external -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
