@@ -90,6 +90,7 @@
   <!-- hardware -->
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
