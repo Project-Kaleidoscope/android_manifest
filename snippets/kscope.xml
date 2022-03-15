@@ -61,6 +61,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kscope" />
 
   <!-- hardware -->
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="kscope" revision="sunflower-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="kscope" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
