@@ -45,14 +45,12 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="kscope" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="kscope" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="kscope" />
-  <project path="external/colorkt" name="android_external_colorkt" remote="kscope" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="kscope" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="kscope" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="kscope" />
   <project path="external/json-c" name="android_external_json-c" remote="kscope" />
   <project path="external/mksh" name="android_external_mksh" remote="kscope" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
-  <project path="external/themelib" name="android_external_themelib" remote="kscope" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
