@@ -8,7 +8,7 @@ To get started with Kaleidoscope, you'll need to get familiar with [Source Contr
 
 To initialize your local repository, use this command:
 ```bash
-repo init -u https://github.com/Project-Kaleidoscope/android_manifest.git -b sunflower
+repo init -u https://github.com/Project-Kaleidoscope/android_manifest.git -b sunflowerleaf
 ```
 
 Then to sync up:
