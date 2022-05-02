@@ -53,6 +53,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="kscope" />
   <project path="external/mksh" name="android_external_mksh" remote="kscope" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="kscope" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
@@ -128,6 +129,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="kscope" />
 
   <!-- prebuilts -->
+  <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="kscope" clone-depth="1" />
   <project path="prebuilts/tools-kscope" name="android_prebuilts_tools-kscope" remote="kscope" />
 
   <!-- system -->

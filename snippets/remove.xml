@@ -80,6 +80,7 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -119,6 +120,9 @@
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telephony" />
+
+  <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
 
   <!-- system -->
   <remove-project name="platform/system/bt" />
