@@ -13,6 +13,7 @@
            fetch="https://gitlab.com/Project-Kaleidoscope"
            revision="refs/heads/sunflowerleaf" />
 
+  <project path="art" name="android_art" remote="kscope" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="kscope" />
   <project path="manifest" name="android_manifest" remote="kscope" />
 
