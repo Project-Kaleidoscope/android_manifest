@@ -112,6 +112,7 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="kscope" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="kscope" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="kscope" />
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="kscope" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="kscope" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="kscope" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="kscope" />
