@@ -53,6 +53,7 @@
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="kscope" />
   <project path="external/json-c" name="android_external_json-c" remote="kscope" />
   <project path="external/mksh" name="android_external_mksh" remote="kscope" />
+  <project path="external/oplus-fonts" name="android_external_oplus-fonts" remote="kscope-gitlab" clone-depth="1" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
   <project path="external/zlib-ng" name="android_external_zlib-ng" remote="kscope" />
 
