@@ -139,6 +139,7 @@
 
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="kscope" clone-depth="1" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="kscope" />
   <project path="prebuilts/tools-kscope" name="android_prebuilts_tools-kscope" remote="kscope" />
 
   <!-- system -->
