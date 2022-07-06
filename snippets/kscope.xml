@@ -9,6 +9,10 @@
            review="https://review.kaleidoscope.ink/"
            revision="refs/heads/sunflowerleaf" />
 
+  <remote  name="kscope-devices"
+           fetch="https://github.com/Kscope-Devices"
+           revision="refs/heads/sunflowerleaf" />
+
   <remote  name="kscope-gitlab"
            fetch="https://gitlab.com/Project-Kaleidoscope"
            revision="refs/heads/sunflowerleaf" />
