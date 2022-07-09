@@ -114,6 +114,7 @@
 
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="kscope" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="kscope" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="kscope" />
   <project path="packages/apps/Chromium" name="android_packages_apps_Chromium" remote="kscope-gitlab" clone-depth="1" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="kscope" />
@@ -141,6 +142,7 @@
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="kscope" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="kscope" />
+  <project path="prebuilts/kscope" name="android_prebuilts_kscope" remote="kscope" />
   <project path="prebuilts/tools-kscope" name="android_prebuilts_tools-kscope" remote="kscope" />
 
   <!-- system -->
