@@ -38,6 +38,7 @@
   <!-- device -->
   <project path="device/kscope/sepolicy" name="android_device_kscope_sepolicy" remote="kscope" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="kscope" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="kscope" revision="sunflowerleaf-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="kscope" />
 
   <!-- external -->
