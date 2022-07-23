@@ -171,6 +171,9 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="kscope" />
   <project path="vendor/gms" name="android_vendor_gms" remote="kscope-gitlab" clone-depth="1" />
   <project path="vendor/kscope" name="android_vendor_kscope" remote="kscope" />
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="kscope" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="kscope" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="kscope" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="kscope" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="kscope" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="kscope" />
