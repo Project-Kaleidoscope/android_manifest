@@ -52,7 +52,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="kscope" />
 
   <!-- external -->
-  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="kscope-gitlab" clone-depth="1" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="kscope-gitlab" revision="master" clone-depth="1" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="kscope-gitlab" clone-depth="1" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="kscope" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="kscope" />
