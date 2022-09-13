@@ -60,6 +60,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="kscope" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="kscope" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="kscope" />
+  <project path="external/expat" name="android_external_expat" remote="kscope" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="kscope" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="kscope" />
   <project path="external/json-c" name="android_external_json-c" remote="kscope" />
@@ -154,6 +155,7 @@
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="kscope" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="kscope" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="kscope" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="kscope" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="kscope" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="kscope" />
 
