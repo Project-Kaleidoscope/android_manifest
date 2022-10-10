@@ -58,6 +58,7 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="kscope" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="kscope" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="kscope" />
+  <project path="external/dtc" name="android_external_dtc" remote="kscope" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="kscope" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="kscope" />
   <project path="external/expat" name="android_external_expat" remote="kscope" />
@@ -170,6 +171,7 @@
   <project path="system/core" name="android_system_core" remote="kscope" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="kscope" />
   <project path="system/media" name="android_system_media" remote="kscope" />
+  <project path="system/nfc" name="android_system_nfc" remote="kscope" />
   <project path="system/security" name="android_system_security" remote="kscope" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="kscope" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="kscope" />
